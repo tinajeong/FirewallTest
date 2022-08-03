@@ -14,7 +14,7 @@ Enter command line arguments with comma(`,`)
 ```console
 PS C:\Users> .\WindowFirewallTest.ps1 "127.0.0.1,192.168.137.1" "32000,139" 500  
 =====FIREWALL CHECK START=====
-========Timeout : 300ms=======
+========Timeout : 500ms=======
 127.0.0.1 32000 is opened
 127.0.0.1 139 is closed
 192.168.137.1 32000 is closed
